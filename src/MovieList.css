@@ -1,0 +1,35 @@
+.netflix-ui .movie-container {
+    padding: 20px;
+    background-color: #141414; /* Netflix background color */
+    color: #fff; /* Netflix text color */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .netflix-ui .movie-card {
+    margin: 10px;
+    width: calc(33.333% - 20px); /* Adjust width for 3 cards per row */
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    background-color: #1f1f1f; /* Netflix darker background color */
+    box-shadow: none;
+  }
+  
+  .netflix-ui .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0; /* Ensure image corners match border radius */
+  }
+  
+  .netflix-ui .movie-card h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold; /* Netflix title font weight */
+  }
+  
+  .netflix-ui .movie-card p {
+    margin: 5px 0;
+    color: #ccc; /* Netflix subtitle color */
+  }
